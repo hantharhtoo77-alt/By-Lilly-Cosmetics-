@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By Lilly Cosmetics | Official Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pyidaungsu:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --black: #121212;
+            --viber: #7360f2;
+            --white: #ffffff;
+            --gray: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Pyidaungsu', sans-serif;
+            margin: 0;
+            background-color: var(--gray);
+            color: var(--black);
+        }
+
+        nav {
+            background: var(--black);
+            padding: 1.5rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 3px solid var(--gold);
+        }
+
+        nav h1 {
+            color: var(--gold);
+            margin: 0;
+            letter-spacing: 2px;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1000');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-img {
+            width: 100%;
+            height: 220px;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #aaa;
+        }
+
+        .card-content {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-content h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.3rem;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .price-tag {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--gold);
+            margin-bottom: 20px;
+        }
+
+        .btn-viber {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: var(--viber);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: 0.3s;
+            box-sizing: border-box;
+        }
+
+        .btn-viber:hover {
+            opacity: 0.9;
+            box-shadow: 0 5px 15px rgba(115, 96, 242, 0.4);
+        }
+
+        footer {
+            background: var(--black);
+            color: #888;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h1>By Lilly Cosmetics</h1>
+</nav>
+
+<div class="hero">
+    <div>
+        <h2>Premium Beauty & Skincare</h2>
+        <p>အရည်အသွေးမြင့် ထုတ်ကုန်များကို တစ်နေရာတည်းတွင်</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="grid">
+        <div class="card">
+            <div class="card-img">Aloe Gold Serum</div>
+            <div class="card-content">
+                <h3>Aloe Gold Serum</h3>
+                <p>ရွှေမှုန်လေးများပါဝင်ပြီး အသားအရေကို ရေဓာတ်ဖြည့်ပေးကာ တင်းရင်းဝင်းပစေသော Premium Serum။</p>
+                <div class="price-tag">45,000 MMK</div>
+                <a href="viber://chat?number=+959756845381" class="btn-viber">Viber မှ မှာယူရန်</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">CC Sunscreen</div>
+            <div class="card-content">
+                <h3>CC Sunscreen Cream</h3>
+                <p>နေရောင်ခြည်ဒဏ်မှ ကာကွယ်ပေးပြီး အမည်းစက်များကို သဘာဝကျကျ ဖုံးအုပ်ပေးသော CC Cream။</p>
+                <div class="price-tag">25,000 MMK</div>
+                <a href="viber://chat?number=+959756845381" class="btn-viber">Viber မှ မှာယူရန်</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">Lilly Queen Lip Matte</div>
+            <div class="card-content">
+                <h3>Lilly Queen Lip Matte</h3>
+                <p>နှုတ်ခမ်းသားကို ခြောက်သွေ့ခြင်းမရှိဘဲ တစ်နေကုန်အရောင်စွဲမြဲကာ ပေါ့ပါးမှုကိုပေးမည့် Lip Matte။</p>
+                <div class="price-tag">25,000 MMK</div>
+                <a href="viber://chat?number=+959756845381" class="btn-viber">Viber မှ မှာယူရန်</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">Lilly Lotion</div>
+            <div class="card-content">
+                <h3>Lilly Lotion</h3>
+                <p>တစ်ကိုယ်လုံး အသားအရေကို ဖြူစင်ဝင်းပစေပြီး စေးကပ်ခြင်းမရှိဘဲ နူးညံ့စေသော Lotion။</p>
+                <div class="price-tag">45,000 MMK</div>
+                <a href="viber://chat?number=+959756845381" class="btn-viber">Viber မှ မှာယူရန်</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">ကပြားမလေး ခေါင်းလျှော်ရည်</div>
+            <div class="card-content">
+                <h3>ကပြားမလေး သဘာဝခေါင်းလျှော်ရည်</h3>
+                <p>သဘာဝအသီးအနှံများဖြင့် ဖော်စပ်ထားပြီး ဆံပင်ကျွတ်ခြင်းကို သက်သာစေကာ ဆံသားသန်စွမ်းစေသည်။</p>
+                <div class="price-tag">19,000 MMK</div>
+                <a href="viber://chat?number=+959756845381" class="btn-viber">Viber မှ မှာယူရန်</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">All in One Soap</div>
+            <div class="card-content">
+                <h3>All in One ဂျေးပေါင်းဆပ်ပြာ</h3>
+                <p>ဆဲလ်သေများကို ဖယ်ရှားပေးပြီး သိသိသာသာ အသားဖြူစေသော ဂျေးပေါင်းဆပ်ပြာ။</p>
+                <div class="price-tag">1 တုံး - 5,000 MMK / 1kg - 59,000 MMK</div>
+                <a href="viber://chat?number=+959756845381" class="btn-viber">Viber မှ မှာယူရန်</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 By Lilly Cosmetics. | Powered by High-Security Infrastructure</p>
+    <p>ဆက်သွယ်ရန်: +959756845381</p>
+</footer>
+
+</body>
+</html>
